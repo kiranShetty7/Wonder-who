@@ -62,7 +62,7 @@ export default function Home() {
       <h1 className={styles.title}>Wonder-Who 🤔 ?</h1>
       <form onSubmit={handleSubmit} className={styles.form}>
         <input type="text" value={name} onChange={(e) => setName(e.target.value)} className={styles.input} placeholder="Enter your name" />
-        <button type="submit" className={styles.button}>Guess!</button>
+        <button type="submit" className={styles.button} disabled={!name}>Guess!</button>
       </form>
       {loading && <p className={styles.loading}>Guessing...</p>}
       {error && <p className={styles.error}>{error}</p>}
