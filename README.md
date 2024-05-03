@@ -14,6 +14,6 @@ To start exploring Wonder Who?, follow these steps:
 
 ## Demo
 
-[https://wonder-who-test.vercel.app/](WonderWho)
+[WonderWho](https://wonder-who-test.vercel.app/)
 
 Happy exploring with Wonder Who?!
